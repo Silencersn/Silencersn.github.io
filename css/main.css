@@ -207,11 +207,13 @@ sup > a::before,
 }
 @media (max-width: 767px) {
   #subtitle {
+    z-index: 99999
     font-size: 1.5rem;
   }
 }
 @media (max-width: 575px) {
   #subtitle {
+    z-index: 99999
     font-size: 1.35rem;
   }
 }
