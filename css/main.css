@@ -1,5 +1,4 @@
 .banner {
-  z-index: 99999
   height: 100%;
   position: relative;
   overflow: hidden;
@@ -7,7 +6,6 @@
   overflow-wrap: break-word;
 }
 .banner .mask {
-  z-index: 99999
   position: absolute;
   width: 100%;
   height: 100%;
@@ -17,7 +15,6 @@
   color: #fff;
   max-width: calc(960px - 6rem);
   width: 80%;
-  z-index: 99999
 }
 @media (max-width: 575px) {
   .banner .page-header,
@@ -207,13 +204,11 @@ sup > a::before,
 }
 @media (max-width: 767px) {
   #subtitle {
-    z-index: 99999
     font-size: 1.5rem;
   }
 }
 @media (max-width: 575px) {
   #subtitle {
-    z-index: 99999
     font-size: 1.35rem;
   }
 }
